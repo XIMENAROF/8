@@ -1,0 +1,17 @@
+//1.-Algoritmo para determinar el volumen de una caja de dimensiones A, B y C.
+#include<stdio.h>  //biblioteca
+int main(){   //funcion principal
+  float a,b,c,volumen;//variables
+ //INICIO
+ printf ("Ingresar la primera medida\n");      //datos
+ scanf ("%f",&a);
+ printf("Ingresar la segunda medida\n");
+ scanf("%f",&b);
+ printf("Ingresar la tercera medida\n");
+ scanf("%f",&c);
+ 
+ volumen=a*b*c; //operacion
+ printf("El volumen total de la caja es de: %f",volumen); //impresion de resultado
+ 
+ return 0;
+ }
