@@ -1,0 +1,17 @@
+//5.-Algoritmo para determinar el área de una circunferencia.
+#include<stdio.h>  //biblioteca
+
+int main (){   //funcion principal
+
+float radio,rc,area;
+//INICIO
+printf("Ingrese el valor del radio\n");
+scanf("%f",&radio);
+rc=radio*radio; //radio cuadrado
+area=3.1415*rc ;  //operaciones
+
+
+printf("\nEl area de la circunferencia es de %f:",area);
+
+return 0;	
+}
