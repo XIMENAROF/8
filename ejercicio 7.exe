@@ -1,0 +1,15 @@
+//7.-Algoritmo para determinar el cambio que recibirá una persona. 
+#include<stdio.h> //biblioteca
+int main(){   //funcion principal
+
+float costo,dinero,cambio;     //variables
+printf("Ingrese el costo del producto\n");
+scanf("%f",&costo);
+printf("Ingrese el dinero que dio\n");
+scanf("%f",&dinero);
+cambio=(dinero-costo);
+
+printf("El cambio que tiene que recibir es de: %.2f",cambio);
+	
+return 0;	
+}
