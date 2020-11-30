@@ -1,0 +1,13 @@
+//6.-Algoritmo para convertir metros a pulgadas.
+
+#include<stdio.h> // biblioteca
+int main(){        //funcion principal
+	float metros,pulgadas;    //variables
+	//INICIO
+	printf("Ingrese los metros\n");  //datos de entrada
+	scanf("%f",&metros);
+	pulgadas=metros*39.37;  //operacion
+	printf("\nLa pulgadas son:%f",pulgadas);  //resultado
+	
+return 0;	
+}
