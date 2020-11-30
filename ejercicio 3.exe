@@ -1,0 +1,23 @@
+//3.-Algoritmo para obtener el promedio de 4 de calificaciones obtenidas
+
+#include<stdio.h>// biblioteca
+int main(){ //funcion principal
+ float n1,n2,n3,n4,prom;  //varaibles
+ 
+ //INICIO
+ 
+ printf("Ingrese la primera calificacion\n");
+ scanf("%f",&n1);
+ printf("Ingrese la segunda  calificacion\n");
+ scanf("%f",&n2);
+ printf("Ingrese la tercera calificacion\n");
+ scanf("%f",&n3);
+ printf("Ingrese la cuarta calificacion\n");
+ scanf("%f",&n4);
+ 
+ prom=(n1+n2+n3+n4) /4;
+ printf("\nEl promedio final es: %f",prom);
+ 
+ 
+return 0;	
+}
