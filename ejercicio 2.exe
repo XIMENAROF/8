@@ -1,0 +1,32 @@
+//2.-Algoritmo para obtener la distancia entre dos puntos.
+
+#include<stdio.h>
+int main(){
+
+float x1,y1,x2,y2,x,y,distancia; //variables
+float xe,ye,s;
+//INICIO
+printf("Ingrese los datos de la primera cordenada\n");
+printf("Ingrese el valor de X1\n");
+scanf("%f",&x1);
+printf("Ingrese el valor de y1\n");
+scanf("%f",&y1);
+printf("Ingrese los datos de la segunda cordenada\n");
+printf("Ingrese el valor de X2\n");
+scanf("%f",&x2);
+printf("Ingrese el valor de y2\n");
+scanf("%f",&y2);
+
+
+x=(x2-x1);
+y=(y2-y1);
+
+xe=(x*x);
+ye=(y*y);
+
+s=(xe+ye);
+
+printf("la distancia entre los dos puntos es de: raiz de: %f\n",s);
+
+return 0;
+}
